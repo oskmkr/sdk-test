@@ -3,4 +3,5 @@ node_js:
   - "6"
 install:
   - npm install
-script: node_modules/karma/bin/karma start --single-run --browsers PhantomJS
+script: 
+  - node_modules/karma/bin/karma start --single-run --browsers PhantomJS
